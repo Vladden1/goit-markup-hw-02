@@ -59,17 +59,28 @@ button {
   color: var(--accent-color);
 }
 .call-us .link {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .call-us .link:focus,
 .call-us .link:hover {
   color: var(--accent-color);
 }
+
 /* main */
 /* hero */
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  text-align: center;
+}
 .hero .hero-title {
   color: #ffffff;
-  background-color: black;
+
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
@@ -123,19 +134,26 @@ button {
 .team-list p {
   font-size: 16px;
   line-height: 1.19;
+  font-weight: 400;
 }
 
 /* Footer */
+#contacts {
+  background-color: #2f303a;
+}
+#contacts .logo {
+  color: #ffffff;
+}
 
 .contact-list .link {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  background-color: black;
+  text-decoration: none;
+  font-style: normal;
 }
 .contact-list .adress {
   color: var(--primary-white-color);
-  background-color: black;
 }
 
 .contact-list .link:focus,
@@ -157,8 +175,6 @@ button {
 }
 .button-list .button-filtr {
   background-color: var(--primary-bg-color-button);
-  color: var(--title-text-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -178,8 +194,8 @@ button {
   color: var(--tittle-text-color);
 }
 .examples .title {
-  font-size: 16px;
-  line-height: 1.88;
+  font-size: 18px;
+  line-height: 2;
 }
 .examples .text {
   font-size: 16px;
@@ -187,5 +203,12 @@ button {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.examples .card {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
 /* footer */
+/*  */
