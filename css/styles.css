@@ -140,6 +140,8 @@ button {
 /* Footer */
 #contacts {
   background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
 }
 #contacts .logo {
   color: #ffffff;
