@@ -28,6 +28,9 @@ body {
 button {
   font-family: inherit;
 }
+.container {
+  margin: auto;
+}
 /* index.html - Студія */
 /* header */
 
